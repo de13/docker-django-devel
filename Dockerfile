@@ -4,7 +4,7 @@ MAINTAINER de13 <stephane.beuret@data-essential.com>
 
 RUN yum update -y && \
     yum install -y epel-release && \
-    yum install -y mariadb-devel vim git python34-setuptools python34-pip gcc python34-devel && \
+    yum install -y postgresql mariadb-devel vim git python34-setuptools python34-pip gcc python34-devel && \
     pip3 install --upgrade pip && \
     pip install virtualenv && \
     pip install psycopg2 && \
