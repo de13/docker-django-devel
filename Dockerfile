@@ -8,6 +8,6 @@ RUN yum update -y && \
     pip3 install --upgrade pip && \
     pip install django==1.8
 
-COPY python.vim ~/.vim/ftplugin/python.vim
-COPY vimrc ~/.vimrc
-COPY bashrc ~/.bashrc
+COPY python.vim /root/.vim/ftplugin/python.vim
+COPY vimrc /root/.vimrc
+COPY bashrc /root/.bashrc
